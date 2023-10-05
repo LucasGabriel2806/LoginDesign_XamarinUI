@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginDesign_XamarinUI.LoginUI"
+             BackgroundColor="#112B47">
+
+    <ContentPage.Content>
+
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="userimg.png" WidthRequest="180" HeightRequest="180" ></Image>
+
+            <Entry x:Name="txtUsername" Placeholder="Nome do usuário" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtPassword" Placeholder="Senha" IsPassword="True"  TextColor="White" PlaceholderColor="Gray"></Entry>
+
+            <Button
+            VerticalOptions="Center"
+            Text="Login"
+            TextColor="White"
+            BackgroundColor="Transparent"
+            BorderColor="ForestGreen"
+            BorderWidth="1.5"
+            CornerRadius="50"
+            Clicked="Button_Clicked"
+            ></Button>
+
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Não tem uma conta? " TextColor="Gray" />
+                        <Span Text="Registrar" TextColor="Gray" FontAttributes="Bold"
+                          TextDecorations="Underline"  />
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

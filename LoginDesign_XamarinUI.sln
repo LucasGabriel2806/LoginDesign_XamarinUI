@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginDesign_XamarinUI.Android", "LoginDesign_XamarinUI\LoginDesign_XamarinUI.Android\LoginDesign_XamarinUI.Android.csproj", "{21BC3AF8-113F-434E-8493-152EFEBB3BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginDesign_XamarinUI", "LoginDesign_XamarinUI\LoginDesign_XamarinUI\LoginDesign_XamarinUI.csproj", "{9249029F-B248-4994-AC22-73F933B7D0B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BC3AF8-113F-434E-8493-152EFEBB3BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BC3AF8-113F-434E-8493-152EFEBB3BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BC3AF8-113F-434E-8493-152EFEBB3BEC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{21BC3AF8-113F-434E-8493-152EFEBB3BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BC3AF8-113F-434E-8493-152EFEBB3BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BC3AF8-113F-434E-8493-152EFEBB3BEC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9249029F-B248-4994-AC22-73F933B7D0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9249029F-B248-4994-AC22-73F933B7D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9249029F-B248-4994-AC22-73F933B7D0B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9249029F-B248-4994-AC22-73F933B7D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9249029F-B248-4994-AC22-73F933B7D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9249029F-B248-4994-AC22-73F933B7D0B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26548977-FACC-435F-B5B9-F99BB1C3CDE0}
+	EndGlobalSection
+EndGlobal
